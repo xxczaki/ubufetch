@@ -2,4 +2,4 @@ language: bash
 sudo: required
 
 script:
-- rm -rf ubufetch && git clone https://github.com/xxczaki/ubufetch.git && cd ubufetch && chmod +x ./archfetch && ./ubufetch && echo 'Done!'
+- rm -rf ubufetch && git clone https://github.com/xxczaki/ubufetch.git && cd ubufetch && chmod +x ./ubufetch && ./ubufetch && echo 'Done!'
