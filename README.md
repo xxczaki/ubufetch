@@ -23,6 +23,6 @@ cd ubufetch
 make install
 ```
 
-# License
+# Related
 
-MIT
+- [archfetch](https://github.com/xxczaki/archfetch)
