@@ -20,7 +20,7 @@ It displays information about your system, for example kernel version, uptime or
 ```bash
 git clone https://github.com/xxczaki/ubufetch
 cd ubufetch 
-make install
+sudo make install
 ```
 
 # Related
