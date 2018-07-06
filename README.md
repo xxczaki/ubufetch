@@ -9,7 +9,7 @@
 
 <img src="https://imgur.com/hvJofR3.png" alt="ubufetch" align="right" height="130px">
 
-Ubufetch is a fork of [archfetch](https://github.com/xxczaki/archfetch), changed to be compatible with Linux Ubuntu.
+Ubufetch is a fork of [archfetch](https://github.com/xxczaki/archfetch), changed to be compatible with Linux Ubuntu and it's relatives.
 
 It displays information about your system, for example kernel version, uptime or the number of installed packages.
 
