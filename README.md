@@ -7,7 +7,7 @@
 <a href="./LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 </p>
 
-<img src="https://imgur.com/hvJofR3.png" alt="ubufetch" align="right" height="130px">
+<img src="https://imgur.com/epLKLtZ.png" alt="ubufetch" align="right" height="130px">
 
 Ubufetch is a fork of [archfetch](https://github.com/xxczaki/archfetch), changed to be compatible with Linux Ubuntu and it's relatives.
 
