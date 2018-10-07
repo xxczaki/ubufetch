@@ -11,3 +11,4 @@ install:
 
 uninstall:
 	@rm -rf $(DESTDIR)$(PREFIX)/bin/ubufetch
+	@echo ubufetch uninstalled!
