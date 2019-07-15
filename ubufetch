@@ -9,10 +9,13 @@
 #  88       88  88       d8  88       88    88    8PP"""""""    88    8b          88       88  
 #  "8a,   ,a88  88b,   ,a8"  "8a,   ,a88    88    "8b,   ,aa    88,   "8a,   ,aa  88       88  
 #   `"YbbdP'Y8  8Y"Ybbd8"'    `"YbbdP'Y8    88     `"Ybbd8"'    "Y888  `"Ybbd8"'  88       88  
-#                                                                                            
+#
+
+# Disable unicode.
+LC_ALL=C
+LANG=C
 
 ## Basic Configuration
-
 user="$(whoami || printf "%s" "${HOME/*\/}")"
 hostname="$(hostname)"
 os="$(lsb_release -d | cut -f2)"
@@ -26,7 +29,6 @@ packages="$(dpkg --list | wc -l)"
 shell="$(basename ${SHELL})"
 
 ## Basic Colors
-
 bc="$(tput bold)"       # bold
 # c0="$(tput setaf 0)"	# black
 # c1="$(tput setaf 1)"	# red
@@ -39,14 +41,12 @@ c7="$(tput setaf 7)"	# white
 rc="$(tput sgr0)"       # reset
 
 ## Color Configuration
-
 lc="${rc}${bc}${c6}"	# Labels
 nc="${rc}${bc}${c3}"	# User and hostname
 ic="${rc}${bc}${c7}"	# Info
 pc="${rc}${c7}"         # Tux 
 
 ## Generate & Present the output
-
 cat <<EOF
 ${pc}      ___${rc}     ${nc}${user}${ic}@${nc}${hostname}${rc}
 ${pc}     (${rc}${c7}.·${rc} ${pc}|${rc}    ${lc}OS:         ${ic}${os}${rc}
